@@ -50,7 +50,7 @@ def backspace():
 
 window = Tk()
 window.title("Calculadora lógica")
-window.geometry("500x600")
+window.geometry("420x450")
 
 equation_text = ""
 
@@ -220,31 +220,6 @@ exclusive_disjunction.grid(row=4, column=8)
 equal = Button(frame, text='=', height=2, width=3, font=35,
                  command=equals, bg="#4993c5")
 equal.grid(row=5, column=7, columnspan=2, rowspan=2, sticky="news")
-
-
-# plus = Button(frame, text='+', height=2, width=3, font=35,
-#                  command=lambda: button_press('+'))
-# plus.grid(row=0, column=3)
-
-# minus = Button(frame, text='-', height=2, width=3, font=35,
-#                  command=lambda: button_press('-'))
-# minus.grid(row=0, column=4)
-
-# multiply = Button(frame, text='*', height=2, width=3, font=35,
-#                  command=lambda: button_press('*'))
-# multiply.grid(row=2, column=3)
-
-# divide = Button(frame, text='/', height=2, width=3, font=35,
-#                  command=lambda: button_press('/'))
-# divide.grid(row=3, column=3)
-
-# equal = Button(frame, text='=', height=2, width=3, font=35,
-#                  command=equals)
-# equal.grid(row=3, column=2)
-
-# decimal = Button(frame, text='.', height=2, width=3, font=35,
-#                  command=lambda: button_press('.'))
-# decimal.grid(row=3, column=1)
 
 
 
